@@ -91,6 +91,8 @@ class ViewController: UIViewController {
     
     @IBAction func MultiplicationButton(sender: UIButton) {
         
+        //testing commits
+        
         currentCount = Firstnumer.text.toInt()! * Secondnumber.text.toInt()!
         outputOutlet.text = "The number is \(currentCount)"
         outputOutlet.textColor = UIColor.redColor()
